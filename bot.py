@@ -13,7 +13,7 @@ from telegram.ext import (Application, CommandHandler, CallbackQueryHandler,
 logging.basicConfig(level=logging.INFO)
 
 # ===== НАСТРОЙКИ =====
-TOKEN = os.getenv("BOT_TOKEN", "8672474046:AAGfIA0b7lVdDZfkDlERqPBXRHSNNE870X8)
+TOKEN = os.getenv("BOT_TOKEN", "8672474046:AAGfIA0b7lVdDZfkDlERqPBXRHSNNE870X8")
 
 # Telegram ID курьеров (узнать: каждый пишет боту /id)
 COURIERS = {7829091241}
